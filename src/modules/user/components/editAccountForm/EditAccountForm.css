@@ -1,0 +1,58 @@
+.edit-account-container {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 20px;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+}
+
+.form-title {
+	text-decoration: underline;
+	font-weight: normal;
+	font-size: 1.1em;
+	margin-bottom: 20px;
+}
+
+.form-sections {
+	display: flex;
+	gap: 40px;
+}
+
+.edit-section {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.edit-section h3 {
+	font-size: 1em;
+	margin-bottom: 15px;
+}
+
+.edit-section input {
+	width: 100%;
+	padding: 12px 10px;
+	margin-bottom: 15px;
+	border: 1px solid #333;
+	background-color: #fff;
+	font-family: inherit; /* Наследуем моноширинный шрифт */
+	font-size: 0.9em;
+	box-sizing: border-box; /* Чтобы padding не влиял на ширину */
+}
+
+.btn-save {
+	background-color: #619c4f; /* Зеленый цвет */
+	color: white;
+	border: none;
+	padding: 14px 20px;
+	cursor: pointer;
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 0.9em;
+	text-align: center;
+	transition: background-color 0.2s; /* Плавный переход при наведении */
+}
+
+.btn-save:hover {
+	background-color: #538544; /* Более темный зеленый при наведении */
+}

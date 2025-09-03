@@ -1,0 +1,7 @@
+.snippet-container {
+	cursor: default;
+}
+
+.snippet-container.clickable {
+	cursor: pointer;
+}

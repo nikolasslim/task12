@@ -1,0 +1,44 @@
+/* Переносим стили из UserProfile.css */
+.stat-card {
+	background: #2a2a2a;
+	border-radius: 12px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	border: 1px solid #404040;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.stat-icon {
+	font-size: 2rem;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	border-radius: 50%;
+	flex-shrink: 0;
+}
+
+.stat-content h3 {
+	margin: 0 0 8px 0;
+	font-size: 0.9rem;
+	color: #b0b0b0;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.stat-number {
+	margin: 0;
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: #ffffff;
+}

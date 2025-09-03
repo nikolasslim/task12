@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: rgb(67, 90, 176);
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    margin: 8px;
+
+    max-width: 80px;
+    max-height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}

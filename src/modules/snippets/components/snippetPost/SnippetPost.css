@@ -1,0 +1,30 @@
+.commentsSection {
+	margin-top: 20px;
+}
+
+.commentsTitle {
+	margin-bottom: 12px;
+	font-size: 1.25rem;
+	color: #333;
+}
+
+.commentItem {
+	padding: 10px 0;
+	border-top: 1px solid #eeeeee;
+}
+
+.commentAuthor {
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 4px;
+}
+
+.commentContent {
+	font-size: 15px;
+	color: #222;
+	line-height: 1.5;
+}
+
+.error-message {
+	color: red;
+}

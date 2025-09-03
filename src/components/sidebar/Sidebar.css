@@ -1,0 +1,106 @@
+:root {
+    --aside-width: 260px;
+}
+
+.app-body {
+    display: flex;
+    gap: 16px;
+}
+
+.app-aside {
+    width: var(--aside-width);
+    flex: 0 0 var(--aside-width);
+    border-right: 1px solid #e6e6e6;
+    padding-right: 12px;
+    background-color: rgb(67, 90, 176);
+    border-top: 1px solid grey; /* верхняя граница */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.aside-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 8px;
+}
+
+.aside-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    color: #dbe6f5;
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+.aside-link:hover {
+    background: #4269b5;
+}
+
+.aside-link-active {
+    background: #eef2ff;
+    border-color: #c7d2fe;
+    color: #3730a3;
+}
+
+.aside-link-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    color: #9ca3af !important;
+    background: #f3f4f6 !important;
+    border-color: #d1d5db !important;
+}
+
+.aside-link-disabled:hover {
+    background: #f3f4f6 !important;
+    cursor: not-allowed;
+}
+
+.app-content {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.aside-link svg {
+    fill: currentColor;
+}
+
+.aside-link-text {
+    line-height: 1;
+}
+
+.logged-user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px 10px 0;
+    border-radius: 8px;
+    color: #dbe6f5;
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+.profile-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.logged-user .aside-link {
+    padding-left: 0px;
+
+}
+
+.synthetic-border {
+    width: 120%;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 0 0 -15px;
+
+
+}
